@@ -11,6 +11,7 @@
 		960FCE712AD1A31B00FBDB61 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 960FCE702AD1A31B00FBDB61 /* ContentView.swift */; };
 		960FCE732AD1A31E00FBDB61 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 960FCE722AD1A31E00FBDB61 /* Assets.xcassets */; };
 		960FCE762AD1A31E00FBDB61 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 960FCE752AD1A31E00FBDB61 /* Preview Assets.xcassets */; };
+		960FCE7F2AD2E3CB00FBDB61 /* BorderButtonModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 960FCE7E2AD2E3CB00FBDB61 /* BorderButtonModifier.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		960FCE702AD1A31B00FBDB61 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		960FCE722AD1A31E00FBDB61 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		960FCE752AD1A31E00FBDB61 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		960FCE7E2AD2E3CB00FBDB61 /* BorderButtonModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderButtonModifier.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +53,9 @@
 		960FCE6D2AD1A31B00FBDB61 /* Swoosh */ = {
 			isa = PBXGroup;
 			children = (
+				960FCE7D2AD2E3B700FBDB61 /* Modifiers */,
 				960FCE6E2AD1A31B00FBDB61 /* SwooshApp.swift */,
-				960FCE702AD1A31B00FBDB61 /* ContentView.swift */,
+				960FCE7C2AD2E38900FBDB61 /* Views */,
 				960FCE722AD1A31E00FBDB61 /* Assets.xcassets */,
 				960FCE742AD1A31E00FBDB61 /* Preview Content */,
 			);
@@ -65,6 +68,22 @@
 				960FCE752AD1A31E00FBDB61 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		960FCE7C2AD2E38900FBDB61 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				960FCE702AD1A31B00FBDB61 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		960FCE7D2AD2E3B700FBDB61 /* Modifiers */ = {
+			isa = PBXGroup;
+			children = (
+				960FCE7E2AD2E3CB00FBDB61 /* BorderButtonModifier.swift */,
+			);
+			path = Modifiers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +156,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				960FCE7F2AD2E3CB00FBDB61 /* BorderButtonModifier.swift in Sources */,
 				960FCE712AD1A31B00FBDB61 /* ContentView.swift in Sources */,
 				960FCE6F2AD1A31B00FBDB61 /* SwooshApp.swift in Sources */,
 			);
